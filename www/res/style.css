@@ -1,0 +1,457 @@
+body {
+ margin: 0px;
+ padding: 0px;
+ background-color: #262324;
+ font-family: "DejaVu Sans", sans-serif;
+}
+
+h1 {
+ margin: 0px;
+ padding: 5px 0px 5px 45px;
+ color: #9d5321;
+ background: url('TF2.png') no-repeat 5px center;
+ border-bottom: 4px solid #9d5321;
+}
+
+h2 {
+ margin-bottom: 0px;
+}
+
+h2 img {
+ vertical-align: middle;
+}
+
+h3 {
+ border-bottom: 2px dotted #9d5321;
+ font-variant: small-caps;
+}
+
+h3.extra {
+ padding-top: 15px;
+}
+
+div.left h3 {
+ clear: left;
+}
+
+div#menu {
+ position: absolute;
+ top: 5px;
+ right: 5px;
+}
+
+div#menu ul {
+ list-style-type: none;
+ margin: 0px;
+ padding: 0px;
+}
+
+div#menu ul li {
+ display: inline-block;
+ display: -moz-inline-stack;
+ padding: 0px 10px 0px 15px;
+ border-left: 1px solid #9d5321;
+ margin: 0px;
+}
+
+div#menu ul li a:active, div#menu ul li a:focus {
+ outline-style: none;
+}
+
+div#menu ul li#first {
+ border-left: 0px;
+}
+
+div#content {
+ background-color: #FFF;
+ padding: 5px 20px 20px 20px;
+}
+
+div.left {
+ float: left;
+ clear: left;
+ width: 365px;
+}
+
+div.largeclass {
+ color: #9d5321;
+ text-align: center;
+ padding: 5px 0px 0px 0px;
+ font-weight: bold;
+}
+
+div.largeclass img {
+ display: block;
+ margin: 0px auto 5px auto;
+}
+
+div.map.large {
+ width: 358px;
+ height: 250px;
+ margin: 0px 1px 2px 1px;
+}
+
+div.map {
+ text-align: center;
+ font-size: small;
+ padding-bottom: 5px;
+ color: #9d5321;
+ background-color: #262324;
+ float: left;
+}
+
+div.map.medium {
+ width: 178px;
+ height: 135px;
+ margin: 0px 1px;
+}
+
+div#mappage div.map.medium {
+ margin: 2px;
+}
+
+div.map img.map {
+ width: 100%;
+}
+
+div.map img.deathmap {
+ display: block;
+ float: left;
+ height: 16px;
+ margin-left: 3px;
+ margin-top: 2px;
+}
+
+div.row {
+ margin: 0px;
+ padding: 0px;
+}
+
+div.right {
+ margin-left: 380px;
+}
+
+a img {
+ border: 0px;
+}
+
+table {
+ width: 100%;
+ border-collapse: collapse;
+ border: 1px solid #262324;
+}
+
+table th, table td {
+ margin: 0px;
+ padding: 3px;
+}
+
+table td.num {
+ text-align: right;
+}
+
+table td.none {
+ font-style: italic;
+ text-align: center;
+}
+
+table th {
+ border: 1px solid #262324;
+ background-color: #9d5321;
+ color: #fff;
+ font-weight: normal;
+ text-transform: uppercase;
+ font-size: small;
+}
+
+table tr.highlight td {
+ border-top: 1px solid #262324;
+ border-bottom: 1px solid #262324;
+}
+
+table td {
+ border: 0px;
+}
+
+table td.map, table td.weapon, table td.class {
+ text-align: center;
+}
+
+table td img {
+ vertical-align: middle;
+}
+
+table tr.even td {
+ background-color: #eed1be;
+}
+
+ol li, ul li {
+ margin: 5px 0px 10px 0px;
+}
+
+li img {
+ vertical-align: middle;
+ padding-right: 10px;
+}
+
+ul.stats li em {
+ font-style: normal;
+ font-weight: bold;
+}
+
+div.clear {
+ clear: both;
+}
+
+div#footer {
+ clear: both;
+
+ text-align: center;
+ font-size: small;
+ font-variant: small-caps;
+ margin: 0px 0px;
+ padding: 5px 0px;
+ border-top: 4px solid #9d5321;
+ color: #9d5321;
+}
+
+div#footer a, div#menu a {
+ color: #d06e2c;
+}
+
+div#footer a:hover, div#menu a:hover {
+ color: #ff8736;
+}
+
+/** Events table **/
+
+table.events td.time {
+ font-size: small;
+ text-align: center;
+}
+
+/** Search form **/
+
+table.form, table.form th {
+ border: 0px;
+}
+
+table.form th {
+ text-align: right;
+ background-color: transparent;
+ color: black; 
+ padding-right: 10px;
+ text-transform: none;
+}
+
+/** Graphs **/
+
+div.graphkey div {
+ width: 10px;
+ height: 10px;
+ margin: 2px 5px 5px 20px;
+ display: inline-block;
+ display: -moz-inline-stack;
+ background: url('graphbar.jpg') no-repeat; 
+}
+
+div.graphkey p {
+ display: inline;
+}
+
+div.graphkey div {
+ border: 1px solid #262324;
+ height: 10px;
+ font-size: 1px;
+ vertical-align: middle;
+}
+
+div.graphkey div.graphkey1 {
+ background-position: 0px bottom;
+}
+
+div.graphkey div.graphkey2 {
+ background-position: -28px bottom;
+}
+
+table.graph {
+ table-layout: fixed;
+ clear: right;
+}
+
+table.graph tr.key td {
+ text-align: right;
+ padding: 3px 10px 5px 0px;
+}
+
+table.graph tr.figures td {
+ padding: 0px;
+ vertical-align: middle;
+ border: 1px solid #262324;
+ text-align: center;
+ font-size: small;
+}
+
+table.graph tr.bottom.key td {
+ padding: 5px 10px 3px 0px; 
+}
+
+table.graph tr.data td {
+ padding: 10px 0px 0px 0px;
+ vertical-align: bottom;
+ background: #eed1be url('grid.png') repeat;
+ background-position: center bottom;
+}
+
+table.graph tr.data.bottom td {
+ padding: 0px 0px 10px 0px;
+ vertical-align: top;
+ background-position: center top;
+}
+
+table.graph tr.data td div {
+ font-size: 0px;
+ width: 28px;
+ margin: 0px auto;
+ background: url('graphbar.jpg') no-repeat;
+ border: 1px solid #262324;
+ border-bottom: 0px;
+}
+
+table.graph tr.data.bottom td div {
+ background: url('graphbar2.jpg') no-repeat;
+ border-bottom: 1px solid #262324;
+ border-top: 0px;
+}
+
+table.graph tr.data td div.graphbar1 {
+ background-position: 0px bottom;
+}
+
+table.graph tr.data td div.graphbar2 {
+ background-position: -28px bottom;
+}
+
+table.graph tr.data.bottom td div.graphbar1 {
+ background-position: 0px top;
+}
+
+table.graph tr.data.bottom td div.graphbar2 {
+ background-position: -28px top;
+}
+
+
+/** Extra stuff **/
+
+ul.classlimits {
+ list-style-type: none;
+ margin-left: 0px;
+ padding-left: 10px;
+}
+
+ul.classlimits li {
+ height: 35px;
+}
+
+ul.classlimits li img {
+ vertical-align: bottom;
+}
+
+/** Deathmaps **/
+
+div.deathmap {
+ background: #000 url('dmbackground.jpg') repeat-x top;
+ overflow: auto;
+ text-align: center;
+}
+
+div.deathmap img {
+ width: 720px;
+ height: 493px;
+ background-image: url('dmloading.png');
+}
+
+/** Block links **/
+
+a.blocklink {
+ display: block;
+ width: 100%;
+ text-align: center;
+ background-color: #eed1be;
+ margin: 5px 0px;
+ padding: 5px 0px;
+ color: #9d5321;
+ text-decoration: none;
+ border: 1px solid #9d5321;
+}
+
+a.blocklink:hover {
+ background-color: #fee1ce;
+}
+
+/** Awards **/
+
+h3.award img {
+ vertical-align: bottom;
+ padding-right: 10px;
+ height: 32px;
+}
+
+h3.award span.info {
+ font-weight: normal;
+}
+
+ul.awards, ul.awards li {
+ margin-left: 0px;
+ padding-left: 0px;
+}
+
+ul.awards li {
+ padding-bottom: 15px;
+ padding-left: 10px;
+ list-style-type: none;
+}
+
+ul.awards strong {
+ display: block;
+ height: 24px;
+}
+
+ul.awards img {
+ padding-right: 15px;
+ height: 48px;
+ float: left;
+ clear: left;
+}
+
+/** Connect buttons **/
+
+td.connect img {
+ padding: 0px 2px 0px 0px;
+}
+
+td.connect a {
+ padding-right: 10px;
+}
+
+/** Updating **/
+
+#updating {
+ text-align: center;
+ margin: 10px 0px 5px 0px;
+ background-color: #eed1be;
+ border: 1px solid black;
+ padding: 5px;
+}
+
+/** FAQ */
+
+dt {
+ font-weight: bold;
+ margin-bottom: 10px;
+}
+
+dd {
+ margin-bottom: 10px;
+ margin-left: 0px;
+}
